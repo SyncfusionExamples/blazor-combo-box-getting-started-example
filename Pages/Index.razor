@@ -6,29 +6,9 @@
             <ComboBoxFieldSettings Value="ID" Text="Name">
             </ComboBoxFieldSettings>
         </SfComboBox>
-
-        @*Remote Data Source code snippet*@
-        @*<SfComboBox TValue="string" TItem="EmployeeData"
-                        Placeholder="Select a name">
-            <ComboBoxFieldSettings Value="EmployeeID" Text="FirstName">
-            </ComboBoxFieldSettings>
-            <SfDataManager Url="https://ej2services.syncfusion.com/production/web-services/api/Employees"
-                           Adaptor="Syncfusion.Blazor.Adaptors.WebApiAdaptor"
-                           CrossDomain=true>
-            </SfDataManager>
-        </SfComboBox>*@
     </div>
 
 @code {
-     //Remote Data Source code snippet
-
-    //public class EmployeeData
-    //{
-    //    public int EmployeeID { get; set; }
-    //    public string FirstName { get; set; }
-    //    public string Designation { get; set; }
-    //    public string Country { get; set; }
-    //}
     public class GamesData
     {
         public string Name { get; set; }
